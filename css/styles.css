@@ -13,7 +13,7 @@
   --class-offers-works: #e5e5e5;
   --accent-color: #2196f3;
   --section-hero: #2f303a;
-  --section-teams: #f5f4fa;
+  --section-teams-button: #f5f4fa;
 }
 
 body {
@@ -122,7 +122,7 @@ body {
   letter-spacing: 0.03em;
 }
 .button-portfolio {
-  background-color: #f5f4fa;
+  background-color: var(--section-teams-button);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
@@ -157,8 +157,12 @@ body {
 /* Наши предложения */
 
 .offers-container-list {
-  margin-top: 89px;
-  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .offers-list {
@@ -172,9 +176,15 @@ body {
   line-height: 1.71;
 }
 
+.offers-list-title {
+  margin-top: 92px;
+  margin-bottom: 0;
+  list-style: none;
+}
+
 .offers,
 .works {
-  background-color: var(--class-offers-works);
+  background-color: var(--primary-white-color);
 }
 
 /* Блок нашей работы */
@@ -204,7 +214,7 @@ body {
 .teams {
   margin-top: 50px;
   margin-bottom: 0px;
-  background-color: var(--section-teams);
+  background-color: var(--section-teams-button);
 }
 
 .teams-name {
@@ -246,14 +256,19 @@ body {
 
 .footer-nav {
   color: var(--primary-white-color);
-  text-decoration: none;
-  font-style: normal;
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 
+.footer-nav-i {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  font-style: normal;
+}
 .list {
   list-style: none;
   padding-top: 50px;
