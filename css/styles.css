@@ -23,10 +23,30 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Logo */
 .logo {
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-decoration: none;
 
   font-weight: 700;
@@ -72,6 +92,12 @@ body {
 /* Блок герой */
 
 .button {
+  min-width: 200px;
+  box-sizing: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  text-align: center;
+
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
@@ -115,10 +141,13 @@ body {
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero > h1 {
@@ -127,7 +156,15 @@ body {
 
 /* Наши предложения */
 
+.offers-container-list {
+  margin-top: 89px;
+  margin-bottom: 0px;
+}
+
 .offers-list {
+  margin-top: 10px;
+  margin-bottom: 0px;
+
   color: #757575;
 
   font-weight: 400;
@@ -140,9 +177,33 @@ body {
   background-color: var(--class-offers-works);
 }
 
+/* Блок нашей работы */
+
+.works {
+  margin-top: 92px;
+  margin-bottom: 0px;
+}
+
+.works-img {
+  padding-top: 50px;
+}
+
+.works-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /* Наша команда */
 
+.teams-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+}
+
 .teams {
+  margin-top: 50px;
+  margin-bottom: 0px;
   background-color: var(--section-teams);
 }
 
@@ -150,9 +211,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
 }
 
 .teams-person {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
   color: #757575;
 
   font-weight: 400;
@@ -187,6 +256,9 @@ body {
 
 .list {
   list-style: none;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  margin: 0;
 }
 
 .logo-color-second {
