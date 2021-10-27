@@ -43,8 +43,19 @@ body {
   overflow: hidden;
 }
 
+/* Header */
+
+.header {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
 /* Logo */
 .logo {
+  display: inline-block;
+  padding-top: 24px;
+  margin-bottom: 25px;
+
   color: var(--title-text-color);
   font-family: Raleway, sans-serif;
   text-decoration: none;
@@ -56,17 +67,27 @@ body {
 
 .logo-color {
   color: var(--accent-color);
+  font-size: 26px;
 }
 
 .site-nav {
   color: var(--title-text-color);
-  list-style: none;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  list-style: none;
+  padding-top: 0;
+  padding-bottom: 30px;
+  margin: 0;
 }
+
+/* ul > site-nav .list {
+  padding-top: 0;
+  padding-bottom: 32px;
+} */
 
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -89,12 +110,22 @@ body {
   color: #757575;
 }
 
+.site-nav .list-link {
+  list-style: none;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  margin: 0;
+}
+
 /* Блок герой */
 
 .button {
+  margin-top: 0px;
+  margin-bottom: 205px;
+
   min-width: 200px;
   box-sizing: inline-block;
-  padding: 10px 32px;
+  padding: 10px 232px;
   border-radius: 4px;
   text-align: center;
 
@@ -115,6 +146,12 @@ body {
 }
 
 .button-portfolio-first {
+  min-width: 200px;
+  box-sizing: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  text-align: center;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
@@ -122,6 +159,12 @@ body {
   letter-spacing: 0.03em;
 }
 .button-portfolio {
+  min-width: 200px;
+  box-sizing: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
+  text-align: center;
+
   background-color: var(--section-teams-button);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -135,14 +178,18 @@ body {
 }
 
 .hero {
+  padding-top: 195px;
+  margin-bottom: 92px;
+
   background-color: var(--section-hero);
-  color: var (var(--primary-text-color));
+  color: var(--primary-white-color);
   text-align: center;
 }
 
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -177,9 +224,12 @@ body {
 }
 
 .offers-list-title {
-  margin-top: 92px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0px;
   list-style: none;
+}
+.offers {
+  margin-bottom: 92px;
 }
 
 .offers,
@@ -190,17 +240,24 @@ body {
 /* Блок нашей работы */
 
 .works {
-  margin-top: 92px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 92px;
 }
 
 .works-img {
-  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .works-title {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-bottom: 50px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Наша команда */
@@ -209,12 +266,21 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 94px;
+  padding-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .teams {
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 1px;
   background-color: var(--section-teams-button);
+}
+.teams-img {
+  padding-bottom: 30px;
 }
 
 .teams-name {
@@ -223,13 +289,12 @@ body {
   line-height: 1.18;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .teams-person {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 10px;
   padding-bottom: 30px;
 
   color: #757575;
@@ -252,9 +317,13 @@ body {
 
 .footer {
   background-color: var(--section-hero);
+  padding-top: 60px;
 }
 
 .footer-nav {
+  padding-top: 20px;
+  padding-bottom: 9px;
+
   color: var(--primary-white-color);
 
   font-style: normal;
@@ -264,20 +333,36 @@ body {
 }
 
 .footer-nav-i {
+  display: inline-block;
+  padding-bottom: 9px;
+
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 
   font-style: normal;
 }
-.list {
+
+.list-works,
+.list-teams {
   list-style: none;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin: 0;
+}
+
+.list-footer {
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  padding-bottom: 161px;
 }
 
 .logo-color-second {
   color: #ffffff;
+  font-size: 26px;
 }
 
 .list .footer-nav {
@@ -287,6 +372,8 @@ body {
 /* Страница portfolio */
 
 .list-project {
+  padding-bottom: 20px;
+
   color: #757575;
 
   font-weight: 400;
@@ -299,5 +386,24 @@ body {
 }
 
 .list-name {
+  padding-bottom: 4px;
+
   color: #212121;
+}
+
+.list {
+  list-style: none;
+  padding-bottom: 34px;
+}
+
+.header-portfolio {
+  padding-bottom: 94px;
+}
+
+.list-link-img {
+  padding-bottom: 20px;
+}
+
+.hero-portfolio {
+  padding-bottom: 94px;
 }
