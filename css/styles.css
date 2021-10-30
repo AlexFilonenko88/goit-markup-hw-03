@@ -98,7 +98,6 @@ body {
 
   list-style: none;
   padding-top: 0;
-  /* padding-bottom: 30px; */
   margin-left: auto;
 }
 
@@ -454,7 +453,7 @@ body {
   padding-left: 0;
   /* padding-bottom: 34px; */
 
-  margin: auto;
+  /* margin: auto; */
 }
 
 .list-hero {
