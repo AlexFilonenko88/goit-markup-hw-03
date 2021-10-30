@@ -98,7 +98,7 @@ body {
 
   list-style: none;
   padding-top: 0;
-  margin-left: auto;
+  margin-left: 93px;
 }
 
 .site-nav .link:hover,
@@ -279,9 +279,9 @@ body {
 
 /* Наша команда */
 
-.list-teams-border {
+/* .list-teams-border {
   border-bottom: 5px solid tomato;
-}
+} */
 
 .teams-title {
   margin-top: 0px;
@@ -436,6 +436,7 @@ body {
 
 .list-link {
   text-decoration: none;
+  margin-left: auto;
 }
 
 .list-name {
