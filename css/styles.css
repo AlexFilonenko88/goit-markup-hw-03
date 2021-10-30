@@ -464,7 +464,7 @@ body {
   list-style: none;
   padding-left: 0;
   padding-top: 98px;
-  padding-bottom: 34px;
+  padding-bottom: 46px;
 
   margin: auto;
 }
@@ -487,6 +487,7 @@ body {
 .list.link-li {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .list-link-li {
