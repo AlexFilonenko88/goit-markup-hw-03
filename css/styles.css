@@ -71,8 +71,6 @@ body {
 }
 
 .site-nav-list {
-  /* padding-top: 32px; */
-  /* padding-bottom: 32px; */
   margin-right: 50px;
 }
 
@@ -279,10 +277,6 @@ body {
 
 /* Наша команда */
 
-/* .list-teams-border {
-  border-bottom: 5px solid tomato;
-} */
-
 .teams-title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -451,9 +445,6 @@ body {
 
   list-style: none;
   padding-left: 0;
-  /* padding-bottom: 34px; */
-
-  /* margin: auto; */
 }
 
 .list-hero {
