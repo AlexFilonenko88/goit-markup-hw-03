@@ -445,9 +445,9 @@ img {
 .list-link-hp {
   margin: 20px 0;
 
+  border-right: 1px solid #757575;
   border-bottom: 1px solid #757575;
   border-left: 1px solid #757575;
-  border-right: 1px solid #757575;
 }
 
 .list-name {
