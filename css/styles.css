@@ -397,10 +397,6 @@ img {
   margin: 0;
 }
 
-/* .footer-list {
-  margin-bottom: 9px;
-} */
-
 .logo-footer {
   display: flex;
   align-items: center;
@@ -475,8 +471,6 @@ img {
   list-style: none;
   padding-left: 0;
   margin-bottom: 50px;
-
-  /* margin: auto; */
 }
 
 .header,
@@ -486,9 +480,7 @@ img {
 }
 
 .list-link-img {
-  /* padding-bottom: 20px; */
   display: block;
-  /* width: 370px; */
 }
 
 .ist-link-hp {
