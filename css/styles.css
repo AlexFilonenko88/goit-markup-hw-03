@@ -443,7 +443,7 @@ img {
 }
 
 .list-link-hp {
-  margin: 20px 0;
+  padding: 20px 24px 17px;
 
   border-right: 1px solid #757575;
   border-bottom: 1px solid #757575;
@@ -470,7 +470,7 @@ img {
 
   list-style: none;
   padding-left: 0;
-  margin-bottom: 50px;
+  margin: 0 0 50px 0;
 }
 
 .header,
